@@ -14,7 +14,7 @@ vim vagrant/Vagrantfile
 
 run vagrant and playbook:
 
-(cd vagrant && vagrant up)
+(cd vagrant && vagrantup.sh )
 
 if you want to rerun the playbook without rebuilding vagrant host
 

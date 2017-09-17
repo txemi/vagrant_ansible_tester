@@ -2,7 +2,7 @@
 - hosts: all
   # CHANGEME: change this tasks and roles with code you want to test.
   #sudo: true
-  tasks:
+  pre_tasks:
   - name: run ansible galaxy
     local_action: command ansible-galaxy install -r requirements.yml
     become: false
