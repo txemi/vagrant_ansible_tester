@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# from https://github.com/txemi/vagrant2ansibleinventory
 
 import vagrant
 
