@@ -19,6 +19,7 @@ run vagrant and playbook:
 if you want to rerun the playbook without rebuilding vagrant host
 
 (cd vagrant && ./vagrant2ansibleInventory.sh)
+
 (cd ansible && ./run_playbook.sh)
 
 or
