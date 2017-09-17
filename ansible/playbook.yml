@@ -1,0 +1,12 @@
+---
+- hosts: all
+  # CHANGEME: change this tasks and roles with code you want to test.
+  #sudo: true
+  tasks:
+  - name: run ansible galaxy
+    local_action: command ansible-galaxy install -r requirements.yml
+    become: false
+
+  roles:
+    - role: ansible-role-omd
+      omd_site: omd_site_name

@@ -1,0 +1,2 @@
+# CHANGEME: change this roles with the roles you want to use
+- src: 'https://github.com/txemi/ansible-role-omd.git'
